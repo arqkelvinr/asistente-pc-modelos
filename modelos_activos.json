@@ -1,0 +1,49 @@
+{
+  "version": "2026.11.22",
+  "CADENA_RUTINA": [
+    ["groq", "openai/gpt-oss-20b"],
+    ["openrouter", "xingchen-agi/xing4.0-29b-a4b:free"],
+    ["openrouter", "nvidia/nemotron-3.5-lightning:free"],
+    ["gemini", "gemini-3.5-flash-lite"],
+    ["groq", "qwen/qwen3.8-27b"],
+    ["gemini", "gemini-3.1-flash-lite"]
+  ],
+  "CADENA_BUSQUEDA_GENERAL": [
+    ["groq", "qwen/qwen3.8-27b"],
+    ["openrouter", "xingchen-agi/xing4.0-29b-a4b:free"],
+    ["openrouter", "nvidia/nemotron-3.5-lightning:free"],
+    ["gemini", "gemini-3.6-flash"]
+  ],
+  "CADENA_INVESTIGACION": [
+    ["openrouter", "nvidia/nemotron-3.5-lightning:free"],
+    ["openrouter", "xingchen-agi/xing4.0-29b-a4b:free"],
+    ["groq", "qwen/qwen3.8-27b"],
+    ["openrouter", "liquid/lfm2.5-2.6b:free"]
+  ],
+  "CADENA_ANALISIS": [
+    ["gemini", "gemini-3.6-flash"],
+    ["openrouter", "cohere/north-mini-code:free"],
+    ["groq", "openai/gpt-oss-120b"],
+    ["openrouter", "nvidia/nemotron-3.5-lightning:free"]
+  ],
+  "CADENA_MULTIMEDIA": [
+    ["openrouter", "nvidia/nemotron-3.5-lightning:free"],
+    ["openrouter", "xingchen-agi/xing4.0-29b-a4b:free"],
+    ["groq", "qwen/qwen3.8-27b"],
+    ["groq", "openai/gpt-oss-120b"],
+    ["gemini", "gemini-3.6-flash"]
+  ],
+  "CADENA_CIENTIFICO": [
+    ["gemini", "gemini-3.8-flash"],
+    ["gemini", "gemini-3.6-flash"],
+    ["openrouter", "nvidia/nemotron-3-ultra-550b-a55b:free"],
+    ["openrouter", "nvidia/nemotron-3.5-super-vl:free"],
+    ["groq", "openai/gpt-oss-120b"]
+  ],
+  "CADENA_TRADUCTOR": [
+    ["groq", "qwen/qwen3.8-27b"],
+    ["openrouter", "mistralai/mistral-small-3.1-24b-instruct:free"],
+    ["groq", "openai/gpt-oss-120b"],
+    ["groq", "openai/gpt-oss-20b"]
+  ]
+}
